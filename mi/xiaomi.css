@@ -1,0 +1,454 @@
+.row{
+    background-color: #fff;
+    min-width: 1240px;
+    height: 170px;
+}
+
+.span{
+    position: absolute;
+    top: 14px;
+    min-width: 234px;
+    height: 170px;
+    float: left;
+
+    
+}
+
+.channel{
+    position: absolute;
+    left: 120px;
+    min-width: 234px;
+    height:168px;
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+    background-image: url(xiaomi.png);
+    background-size: 100%;
+}
+
+.span2{
+    width: 978px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.home{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.first{
+    margin-left: 0;
+    float: left;
+    width: 316px;
+    height: 170px;
+    transition: box-shadow .2s linear;
+}
+
+.urc{
+    display: block;
+    height: 170px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.alt{
+    position: absolute;
+    top: 14px;
+    left: 380px;
+    background-size: 100%;
+    width: 316px;
+    height: 173px;
+    border: 0;
+    color: #757575;
+    background-image: url(xiaomi1.jpg);
+}
+
+.alt1{
+    position: absolute;
+    top: 14px;
+    left: 710px;
+    background-size: 100%;
+    width: 316px;
+    height: 173px;
+    border: 0;
+    color: #757575;
+    background-image: url(xiaomi2.jpg);
+}
+
+.alt2{
+    position: absolute;
+    top: 14px;
+    left: 1040px;
+    background-size: 100%;
+    width: 316px;
+    height: 173px;
+    border: 0;
+    color: #757575;
+    background-image: url(xiaomi3.jpg);
+}
+
+.main{
+    position: absolute;
+    top: 189px;
+    min-width: 1485px;
+    padding-top: 22px;
+    background: #f5f5f5;
+}
+
+.video{
+    margin-bottom: 60px;
+}
+
+.box-hd{
+    position: relative;
+    height: 350px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.title{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.brick{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.link{
+    margin-right: 180px;
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    text-decoration: none;
+}
+
+.video-list{
+    width: 1240px;
+    height: 285px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.video-item{
+    position: absolute;
+    top: -350px;
+    left: 120px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    transition: all .2s linear;
+}
+
+.video-item:hover{
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.figure{
+    position: relative;
+    width: 296px;
+    height: 180px;
+    margin: 0 0 28px;
+}
+
+.trigger{
+    display: block;
+    height: 180px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.img{
+    width: 296px;
+    height: 180px;
+    border: 0;
+    background-size: 100%;
+    background-image: url(xiaomi4.jpg);
+    cursor: pointer;
+}
+
+.img:hover .play{
+    background-color: #ff6700;
+}
+
+.title1{
+    position: absolute;
+    top: 196px;
+    left: 60px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.title1:hover{
+    color: #ff6700;
+}
+
+.desc{
+    position: absolute;
+    left: 38px;
+    top: 236px;
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+
+.play{
+    position: absolute;
+    left: 20px;
+    bottom: 114px;
+    width: 32px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.6);
+    transition: all .2s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.play:hover {
+    background-color: #ff6700;
+    border-color: #ff6700;
+}
+
+.iconfont{
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+}
+
+
+.play i {
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+}
+
+
+.video-item1{
+    position: absolute;
+    top: -635px;
+    left: 135px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    transition: all .2s linear;
+}
+
+.video-item1:hover{
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.img1{
+    width: 296px;
+    height: 180px;
+    border: 0;
+    background-size: 100%;
+    background-image: url(xiaomi5.jpg);
+    cursor: pointer;
+}
+
+.title2{
+    position: absolute;
+    top: 196px;
+    left: 105px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title2:hover{
+    color: #ff6700;
+}
+
+.desc2{
+    position: absolute;
+    left: 60px;
+    top: 236px;
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+    cursor: pointer;
+}
+
+.video-item2{
+    position: absolute;
+    top: 93.5px;
+    left: 742px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    transition: all .2s linear;
+}
+
+.video-item2:hover{
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.img2{
+    width: 296px;
+    height: 180px;
+    border: 0;
+    background-size: 100%;
+    background-image: url(xiaomi6.jpg);
+    cursor: pointer;
+}
+
+.title3{
+    position: absolute;
+    top: 196px;
+    left: 57px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.title3:hover{
+    color: #ff6700;
+}
+
+.desc3{
+    position: absolute;
+    left: 52px;
+    top: 236px;
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.video-item3{
+    position: absolute;
+    top: 93.5px;
+    left: 756px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    transition: all .2s linear;
+}
+
+.video-item3:hover{
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.img3{
+    width: 296px;
+    height: 180px;
+    border: 0;
+    background-size: 100%;
+    background-image: url(xiaomi7.jpg);
+    cursor: pointer;
+}
+
+.title4{
+    position: absolute;
+    top: 196px;
+    left: 72px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.title4:hover{
+    color: #ff6700;
+}
+
+.desc4{
+    position: absolute;
+    left: 83px;
+    top: 236px;
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.site-category{
+    display: block;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    z-index: 21;
+    width: 234px;
+    height: 460px;
+    font-size: 14px;
+}
+
+.category-list{
+    height: 420px;
+    border: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    argin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.category-item{
+    color: #fff;
+    list-style-type: none;
+}
+
+.beijing{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    width: 1226px;
+    height: 460px;
+    background-size: 100%;
+    background-image: url(beijing.jpg);
+}

@@ -4,362 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="xiaomi.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
     <title>Document</title>
 
-    <style>
-        .row{
-            background-color: #fff;
-            min-width: 1240px;
-            height: 170px;
-        }
-
-        .span{
-            position: absolute;
-            top: 14px;
-            min-width: 234px;
-            height: 170px;
-            float: left;
-
-            
-        }
-
-        .channel{
-            position: absolute;
-            left: 120px;
-            min-width: 234px;
-            height:168px;
-            margin: 0;
-            padding: 3px;
-            list-style-type: none;
-            font-size: 12px;
-            text-align: center;
-            background: #5f5750;
-            background-image: url(xiaomi.png);
-            background-size: 100%;
-        }
-
-        .span2{
-            width: 978px;
-            float: left;
-            margin-left: 14px;
-            min-height: 1px;
-        }
-
-        .home{
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
-
-        .first{
-            margin-left: 0;
-            float: left;
-            width: 316px;
-            height: 170px;
-            transition: box-shadow .2s linear;
-        }
-
-        .urc{
-            display: block;
-            height: 170px;
-            color: #ffff;
-            text-decoration: none;
-        }
-
-        .alt{
-            position: absolute;
-            top: 14px;
-            left: 380px;
-            background-size: 100%;
-            width: 316px;
-            height: 173px;
-            border: 0;
-            color: #757575;
-            background-image: url(xiaomi1.jpg);
-        }
-
-        .alt1{
-            position: absolute;
-            top: 14px;
-            left: 710px;
-            background-size: 100%;
-            width: 316px;
-            height: 173px;
-            border: 0;
-            color: #757575;
-            background-image: url(xiaomi2.jpg);
-        }
-
-        .alt2{
-            position: absolute;
-            top: 14px;
-            left: 1040px;
-            background-size: 100%;
-            width: 316px;
-            height: 173px;
-            border: 0;
-            color: #757575;
-            background-image: url(xiaomi3.jpg);
-        }
-
-        .main{
-            position: absolute;
-            top: 189px;
-            min-width: 1485px;
-            padding-top: 22px;
-            background: #f5f5f5;
-        }
-
-        .video{
-            margin-bottom: 60px;
-        }
-
-        .box-hd{
-            position: relative;
-            height: 350px;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .title{
-            position: absolute;
-            top: 0px;
-            left: 120px;
-            margin: 0;
-            font-size: 22px;
-            font-weight: 200;
-            line-height: 58px;
-            color: #333;
-        }
-
-        .brick{
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-        
-        .link{
-            margin-right: 180px;
-            font-size: 16px;
-            line-height: 58px;
-            color: #424242;
-            text-decoration: none;
-        }
-
-        .video-list{
-            width: 1240px;
-            height: 285px;
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
-
-        .video-item{
-            position: absolute;
-            top: -350px;
-            left: 120px;
-            margin-left: 0;
-            position: relative;
-            float: left;
-            width: 296px;
-            height: 285px;
-            margin-bottom: 14px;
-            text-align: center;
-            background: #fff;
-            transition: all .2s linear;
-        }
-
-        .figure{
-            position: relative;
-            width: 296px;
-            height: 180px;
-            margin: 0 0 28px;
-        }
-
-        .trigger{
-            display: block;
-            height: 180px;
-            color: #757575;
-            text-decoration: none;
-        }
-
-        .img{
-            width: 296px;
-            height: 180px;
-            border: 0;
-            background-size: 100%;
-            background-image: url(xiaomi4.jpg);
-        }
-
-        .title1{
-            position: absolute;
-            top: 196px;
-            left: 60px;
-            color: #333;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 400;
-            cursor: pointer;
-        }
-
-        .title1:hover{
-            color: orange;
-        }
-
-        .desc{
-            position: absolute;
-            left: 38px;
-            top: 236px;
-            height: 18px;
-            margin: 0;
-            font-size: 12px;
-            color: #b0b0b0;
-        }
-
-        .video-item1{
-            position: absolute;
-            top: -635px;
-            left: 135px;
-            margin-left: 0;
-            position: relative;
-            float: left;
-            width: 296px;
-            height: 285px;
-            margin-bottom: 14px;
-            text-align: center;
-            background: #fff;
-            transition: all .2s linear;
-        }
-
-        .img1{
-            width: 296px;
-            height: 180px;
-            border: 0;
-            background-size: 100%;
-            background-image: url(xiaomi5.jpg);
-        }
-
-        .title2{
-            position: absolute;
-            top: 196px;
-            left: 105px;
-            color: #333;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 400;
-        }
-
-        .title2:hover{
-            color: orange;
-        }
-
-        .desc2{
-            position: absolute;
-            left: 60px;
-            top: 236px;
-            height: 18px;
-            margin: 0;
-            font-size: 12px;
-            color: #b0b0b0;
-            cursor: pointer;
-        }
-
-        .video-item2{
-            position: absolute;
-            top: 93.5px;
-            left: 742px;
-            margin-left: 0;
-            position: relative;
-            float: left;
-            width: 296px;
-            height: 285px;
-            margin-bottom: 14px;
-            text-align: center;
-            background: #fff;
-            transition: all .2s linear;
-        }
-
-        .img2{
-            width: 296px;
-            height: 180px;
-            border: 0;
-            background-size: 100%;
-            background-image: url(xiaomi6.jpg);
-        }
-
-        .title3{
-            position: absolute;
-            top: 196px;
-            left: 57px;
-            color: #333;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 400;
-            cursor: pointer;
-        }
-
-        .title3:hover{
-            color: orange;
-        }
-
-        .desc3{
-            position: absolute;
-            left: 52px;
-            top: 236px;
-            height: 18px;
-            margin: 0;
-            font-size: 12px;
-            color: #b0b0b0;
-        }
-
-        .video-item3{
-            position: absolute;
-            top: 93.5px;
-            left: 756px;
-            margin-left: 0;
-            position: relative;
-            float: left;
-            width: 296px;
-            height: 285px;
-            margin-bottom: 14px;
-            text-align: center;
-            background: #fff;
-            transition: all .2s linear;
-        }
-
-        .img3{
-            width: 296px;
-            height: 180px;
-            border: 0;
-            background-size: 100%;
-            background-image: url(xiaomi7.jpg);
-        }
-
-        .title4{
-            position: absolute;
-            top: 196px;
-            left: 72px;
-            color: #333;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 400;
-            cursor: pointer;
-        }
-
-        .title4:hover{
-            color: orange;
-        }
-
-        .desc4{
-            position: absolute;
-            left: 83px;
-            top: 236px;
-            height: 18px;
-            margin: 0;
-            font-size: 12px;
-            color: #b0b0b0;
-        }
-
-    </style>
 </head>
 <body>
 
@@ -411,6 +59,9 @@
 
             <h2 class="title1">王源 & 小米9 全新广告大片</h2>
             <p class="desc">好看又能打！我反正被帅到了，Will You？</p>
+            <span class="play">
+                <i class="iconfont">&#xe6a5;</i>
+            </span>
         </div>
     </div>
 
@@ -423,6 +74,9 @@
 
             <h2 class="title2">雷军对话王源</h2>
             <p class="desc2">聊了3小时，这9个秘密决定公开</p>
+            <span class="play">
+                    <i class="iconfont">&#xe6a5;</i>
+                </span>
         </div>
     </div>
 
@@ -435,6 +89,9 @@
 
         <h2 class="title3">小米MIX 3 磁动力滑盖全面屏</h2>
         <p class="desc3">全新滑盖交互体验，不一样的新感觉</p>
+        <span class="play">
+                <i class="iconfont">&#xe6a5;</i>
+            </span>
     </div>
 </div>
 
@@ -447,9 +104,22 @@
 
     <h2 class="title4">小米MIX 3 故宫特别版</h2>
     <p class="desc4">传承中华国宝艺术之美</p>
+    <span class="play">
+            <i class="iconfont">&#xe6a5;</i>
+        </span>
 </div>
 </div>
 
     </div>
+
+<div class="site-category">
+    <div class="category-list">
+        <div class="category-item">
+            手机 电话卡
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>
